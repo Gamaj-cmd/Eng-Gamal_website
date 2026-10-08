@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Gamal Elsaeed</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header">
+      <label for="MENU" class="BURGER__MENU">
+
+      <div class="BURGER__MENU__bar"></div>
+      <div class="BURGER__MENU__bar"></div>
+      <div class="BURGER__MENU__bar"></div>
+</label>
+      <input type="checkbox" id="MENU" class="BURGER__MENU__checkbox">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+                <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+                <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+                <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+                <li><a href="#client" class="navigation__link navigation__client">My Client</a></li>
+                <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+            </ul>
+        </nav>  
+        <div class="toggle">
+        <h3 class="toggle__title">switch theme</h3>
+        <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox">
+        <label for="toggle" class="toggle__lable"></label>
+        </div>
+    </header>
+
+    <section id="bio" class="bio section">
+      <div class="bio__data">
+      <h1 class="bio__heading" >HELLO, I’M A SENIOR BIM ENGINEER SPECIALIZING IN STRUCTURAL BIM</h1>
+      <P class="bio__objective">
+        My Name is <span class="bio__name">Gamal Elsaeed</span>,I am a Senior Structural BIM Engineer, BIM Coordinator, and Instructor, specializing in structural modeling, multidisciplinary coordination, and BIM implementation. I also create and publish educational content on  <a href="https://www.linkedin.com/feed/" class="bio__LINKEDIN">LINKEDIN</a>
+      </P>
+      <a href="#contact" class="bio__link  say-hi-link">Say Hi</a>
+      <a href="./CV.pdf" class="bio__link  find-out-link">Download CV <SPAn class="down-arrow">↓</SPAn></a>
+      </div>
+      <div class="bio__pic-content">
+        <img class="bio__pic" src="./images/personal-pic.png" alt="image for gamal elsaeed">
+      </div>
+  </section>
+
+  <section id="skills" class="skills section--with--bg">
+    <h2 class="h2-heading">Skills</h2>
+
+    <ul class="skills__list">
+      <li class="skills__items">
+        <h2 class="">Structural BIM Modeling</h2>
+        <span class="skills__years">7+ Years</span>
+      </li>
+      <li class="skills__items">
+        <h2 class="">Revit Family Creation</h2>
+        <span class="skills__years">5+ Years</span>
+      </li>
+      <li class="skills__items">
+        <h2 class="">Multidisciplinary BIM Coordination</h2>
+        <span class="skills__years">5+ Years</span>
+      </li>
+      <li class="skills__items">
+        <h2 class="">Clash Detection & Resolution</h2>
+        <span class="skills__years">5+ Years</span>
+      </li>
+      <li class="skills__items">
+        <h2 class="">Quantity Takeoff & BOQ</h2>
+        <span class="skills__years">7+ Years</span>
+      </li>
+      <li class="skills__items">
+        <h2 class="">Technical Office Engineering</h2>
+        <span class="skills__years">7+ Years</span>
+      </li>
+    </ul>
+  </section>
+  <section id="media" class="media section">
+   <video class="media__video" src="./PYREVIT.mp4" poster="./images/thumbnail.jpeg" controls > 
+   </video>
+    <video class="video--loop" src="./video-loop.mp4" autoplay loop muted></video>
+  
+  </section>
+  <section id="projects" class="projects section"> 
+    <h2 class="h2-heading">My Featured <br> Projects</h2>
+    <div class="projects__main">
+      <img src="./images/project-2.png" alt="Serinia project B" width="80%">
+      <div class="projects__data">
+        <h3 class="h3-heading">Serinia project B</h3>
+        <p class="project__discribtion">
+          A large-scale BIM project comprising five high-rise towers, four podiums, and a dedicated villa community, fully developed using an integrated BIM methodology.
+The BIM workflow ensures multidisciplinary coordination, accurate modeling, efficient information management, and seamless delivery of coordinated design and construction documentation.
+
+        </p>
+        <a href="#" class="project__link" target="_blank">STR link</a>
+<span>-</span>
+        <a href="#" class="project__link" target="_blank">ARCH link</a>
+      </div>
+      <div class="projects__data">
+      <h3 class="h3-heading">Serinia project A</h3>
+        <p class="project__discribtion">
+          A fully integrated BIM project developed to enhance design coordination, collaboration, and information management across all disciplines.
+The project utilizes BIM workflows to improve accuracy, minimize clashes, and streamline the delivery of coordinated construction documentation.
+        </p>
+      <a href="#" class="project__link" target="_blank">STR link</a>
+        <span>-</span>
+        <a href="#" class="project__link" target="_blank">ARCH link</a>
+</div>
+      <img class="PROJECTS__IMG" src="./images/project-1.png" alt="Serinia project" width="80%" height="75%">
+      
+      
+    </div>
+     </section>
+     <section id="client" class="client section section--with--bg">
+          <h2 class="h2-heading">What My<br> Clients Says?</h2>
+      <div class="client__opinions">
+        <div class="client__wraber">
+<p class="client__opinion"> Autodesk: “BIM helps teams design, build,and operate<br> better buildings through connected data.”</p>
+<p class="client__opinion">Phil Bernstein: “BIM is not just software;<br> it is a new way of working and collaborating.”</p>
+<p class="client__opinion">Chuck Eastman: “BIM is a digital representation of the building process that facilitates exchange and interoperability.”</p>
+        </div>
+
+      </div>
+
+     </section>
+     <section id="contact" class="contact section">
+      <div>
+        <p class="contact__discribtion">Have a project, collaboration, or BIM-related question? Feel free to get in touch. I’m always open to discussing BIM, Revit, structural engineering, and professional opportunities.
+</p>
+<a class="CONTACT__EMAIL" href="mailto:examaple@gmail.com">elsaidgamal119@gmail.com</a>
+<div class="contact__social">
+  <a href="#" class="contact__social">
+    <img src="./images/brand/facebook.svg" alt="icon of facebook">
+  </a>
+  <a href="#" class="contact__social">
+        <img src="./images/brand/github.svg" alt="icon of github">
+
+  </a>
+  <a href="#" class="contact__social">
+        <img src="./images/brand/instagram.svg" alt="icon of instgram">
+
+  </a>
+  <a href="#" class="contact__social">
+        <img src="./images/brand/LinkedIn.svg" alt="icon of linkedin">
+
+  </a>
+  <a href="#" class="contact__social">    
+    <img src="./images/brand/twitter.svg" alt="icon of twiter">
+</a>
+  <a href="#" class="contact__social">   
+     <img src="./images/brand/youtube.svg" alt="icon of youtube">
+</a>
+</div>
+      </div>
+      <div class="contant__formcontant">
+<h2 class="h2-heading">Let’s Build Something Great Together</h2>
+
+<form action="result.html">
+  <div class="contact__inputs">
+    <input class="contact__input" type="text" placeholder="Full Name" name="name" required>
+    <input class="contact__input" type="tel" placeholder="Phone NO" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" name="telphone" required>
+  </div>
+  <textarea class="contact__input contact__textarea" name="discribtion" id="discribtion" rows="1" placeholder="Your Message"></textarea>
+  <input class="contact__button" type="submit" value="Send Message">
+</form>
+      </div>
+     </section>
+     <footer class="footer">&copy; 2026 by Gamal Elsaeed</footer>
+  </body>
+</html>
